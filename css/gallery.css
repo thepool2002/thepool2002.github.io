@@ -1,0 +1,725 @@
+/******************************************GALLERY CSS***************************************/
+
+/*navigation bar*/
+* {
+  font-size: 1.4rem;
+}
+body {
+  margin: 0;
+}
+
+.galleryheader {
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.galleryheader .scrolled {
+  background-color: #111;
+}
+
+.gallerynavbarlogo a {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 1500;
+}
+
+.gallerynavbarlogo .galleryimg {
+  font-size: 2.25rem;
+}
+.gallerynavbarlogo span {
+  padding-left: 3px;
+  font-size: 1rem;
+}
+.gallerynavbarlogo span i {
+  font-size: 1rem;
+}
+
+.gallerynavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.gallerynavbar a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.gallerynavbar a:hover {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+.gallerynavbar.scrolled a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+}
+
+/*Navigation bar*/
+
+/*sidebar*/
+.gallerysidebar {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 5000;
+}
+
+.gallerysidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.gallerysidebar a:hover {
+  color: #f1f1f1;
+}
+
+.nav-mirror-sidebar {
+  display: none;
+}
+
+.sidebar-fieldset h1 {
+  color: white;
+  padding: 8px 8px 8px 32px;
+  font-size: 1.2rem;
+}
+
+.sidebar-fieldset {
+  padding: 0px 10px 0px 10px;
+}
+.sidebar-fieldset fieldset {
+  border-radius: 10px;
+}
+
+.gallerysidebar button {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 1.4rem;
+  margin-left: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #111;
+  transition: all 0.5s;
+}
+
+.gallerysidebar button:hover {
+  color: black;
+  background-color: white;
+}
+
+.galleryopenBtn {
+  margin: 0;
+  position: fixed;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  right: 20px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.galleryopenBtn:hover {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+.gallerynavbar.scrolled .galleryopenBtn:hover {
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+}
+
+/*sidebar*/
+
+/* gallery background image-slides*/
+.galleryslideshow-container {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.475);
+}
+
+.gallerymySlides {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.gallerymySlides img {
+  width: 100%;
+  height: 1024px;
+  object-fit: cover;
+}
+
+.galleryslide-text {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
+
+.galleryslide-text a {
+  text-decoration: none;
+  font-size: 2.5vw;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+.galleryslide-text a i {
+  font-size: 5.5vw;
+  padding-right: 70%;
+}
+.galleryslide-text:hover {
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+/* gallery background image-slides*/
+
+.gallery-welcome {
+  padding: 3% 3% 0px 3%;
+  position: relative;
+}
+
+
+.gallery-welcome h1 {
+  text-shadow: 2px 2px 20px rgb(49, 49, 49);
+  font-size: 5.8rem;
+}
+
+.gallery-welcome p {
+  line-height: 2rem;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 0px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.gallery-welcome span {
+  background-color: black;
+  color: white;
+  padding: 2px 14px;
+  border-radius: 5px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.table .first{
+  object-position: top;
+  border-top-left-radius:10px ;
+}
+
+.table .second{
+  border-top-right-radius: 10px;
+}
+
+
+
+.overlay-text {
+  position: absolute;
+  top: 39%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/*continent menu*/
+.continents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2%;
+  padding: 1% 3% 0px 3%;
+}
+
+.learnmore {
+  display: flex;
+  justify-content: center;
+}
+.learnmore a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  padding: 0px 14px;
+  transition: all 0.4s;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.learnmore a:hover {
+  background-color: #f3f3f3;
+  color: black;
+}
+.learnmore a:active {
+  color: white;
+  background-color: black;
+}
+.card-text {
+  max-height: 800px;
+  padding: 10px;
+  line-height: 2.3rem;
+}
+
+.card fieldset {
+  padding: 0px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f3f3f3;
+}
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card-text p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.card-text h1 {
+  padding-left: 10px;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.card fieldset {
+  box-shadow: 1px 1px 20px #5a5a5a;
+}
+
+/*continent menu*/
+
+.continent-out {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.continent {
+  display: none;
+}
+
+.about-continent {
+  line-height: 2.3rem;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-part {
+  padding-right: 2%;
+}
+.image-section figure {
+  background-color: #e4e3e3;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 600px;
+}
+.image-section figcaption {
+  text-align: center;
+  text-decoration: dotted underline;
+}
+
+.image-section img {
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.continent-header {
+  max-height: 400px;
+}
+
+.about-continent-legend {
+  text-align: center;
+}
+
+.continent-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 400px;
+  -webkit-background-clip: text;
+  color: #11111100;
+}
+.continent-header h1 {
+  margin: 0;
+  font-size: 22rem;
+}
+
+.continent-header-sa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://wp.en.aleteia.org/wp-content/uploads/sites/2/2021/10/shutterstock_511776115.jpg");
+  background-size: cover;
+  background-position: 130px top;
+  height: 400px;
+  -webkit-background-clip: text;
+  color: #11111100;
+}
+.continent-header-sa span {
+  margin: 0;
+  display: block;
+  font-size: 10rem;
+  padding: 6% 0px 6% 0px;
+}
+
+.continent-header-eu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media.cntraveler.com/photos/649f273371c1fb019fca25fa/16:9/w_6704,h_3771,c_limit/51%20things%20to%20do%20in%20Europe%20before%20you%20die_Arthur's%20Seat-GettyImages-1364677606.jpg");
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 550px;
+  -webkit-background-clip: text;
+  color: #11111100;
+}
+.continent-header-eu h1 {
+  margin: 0;
+  font-size: 16rem;
+}
+
+.continent-header-na {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://lp-cms-production.imgix.net/2019-06/e4f70bf29a988b6c3213a35085cdc230650ec56f442c752895b3339fd7042441.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  -webkit-background-clip: text;
+  color: #11111100;
+}
+.continent-header-na span {
+  margin: 0;
+  display: block;
+  font-size: 11rem;
+  padding: 6% 0px 6% 0px;
+}
+
+.continent-header-af {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.nationalgeographic.com/content/dam/expeditions/destinations/africa/hero-africa-elephants.jpg");
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  height: 400px;
+  -webkit-background-clip: text;
+  color: #11111100;
+}
+.continent-header-af h1 {
+  margin: 0;
+  font-size: 18rem;
+}
+
+.continent-header-au {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.tripsavvy.com/thmb/k39AA6dtCIbao7bsVyy5HDz7AJo=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/OperaHouse-755d893182dc4811b608eb1a99792fd7.jpg");
+  background-size: cover;
+  background-position: 50% 75%;
+  text-align: center;
+  height: 400px;
+  -webkit-background-clip: text;
+  color: #1111111f;
+}
+.continent-header-au h1 {
+  margin: 0;
+  font-size: 13rem;
+}
+
+.place {
+  display: block;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.place img {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.place-description {
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+.place-description fieldset {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 10px;
+}
+.place-description h1 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/*Back to Top button*/
+.totop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s;
+  display: none;
+  border: 1px solid black;
+}
+
+.totop:hover {
+  background-color: white;
+  color: black;
+}
+
+/*Back to Top button*/
+
+/*Footer*/
+footer {
+  background-color: black;
+}
+
+footer h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+
+footer span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/*continent menu*/
+
+/* gallery background image-slides*/
+
+/******************************************GALLERY CSS***************************************/
+@media screen and (max-width: 1850px) {
+  .continent-header-au h1 {
+    font-size: 8rem;
+  }
+  .continent-header-eu h1 {
+    font-size: 10rem;
+  }
+  .continent-header-na span {
+    font-size: 9rem;
+  }
+  .continent-header-af h1 {
+    font-size: 13rem;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .image-section {
+    display: block;
+  }
+  .image-section figure {
+    padding: 0px 30% 0px 30%;
+  }
+  .gallery-welcome h1{
+    font-size: 3rem;
+  }
+
+
+}
+
+@media screen and (max-width: 1250px) {
+  .continents {
+    display: block;
+  }
+  .continents p,
+  .continents-detail p {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    padding: 0px 0px 40px 0px;
+  }
+  .card-text {
+    max-height: 1000px;
+  }
+  .continent-header h1 {
+    font-size: 15rem;
+  }
+  .continent-header-sa span {
+    font-size: 5rem;
+  }
+  .continent-header-na span {
+    font-size: 7rem;
+  }
+  .continent-header-af h1 {
+    font-size: 8rem;
+  }
+  .image-section img {
+    max-height: 300px;
+  }
+  .continent-header-au h1{
+    font-size: 6rem;
+}
+}
+
+@media screen and (max-width: 1000px) {
+
+  .image-section figure {
+    padding: 0px 30% 0px 20%;
+  }
+
+  .continent-header h1 {
+    font-size: 10rem;
+  }
+  .continent-header-af h1 {
+    font-size: 5rem;
+  }
+  .continent-header-au h1 {
+    font-size: 4rem;
+  }
+  .continent-header-eu h1{
+    font-size: 6rem;
+
+  }
+  .continent-header-na span{
+    font-size: 4rem;
+  }
+  .continent-header-sa span{
+    font-size:4rem ;
+  }
+}
+
+@media screen and (max-width:650px) {
+    .gallerynavbar {
+      padding: 32px 15px;
+    }
+  
+    .gallerynavbar a {
+      display: none;
+    }
+    .gallerynavbaralign {
+      background-color: #111;
+    }
+    .galleryopenBtn {
+      top: 0;
+    }
+    .nav-mirror-sidebar {
+      display: block;
+    }
+  
+}
+
+@media screen and (max-width:500px)
+{
+  *{
+    font-size: 0.8rem;
+  }
+  .gallerynavbar{
+    padding: 24px 15px;
+    
+  }
+  .gallerysidebar a{
+    font-size: 15px;
+
+  }
+  .gallerysidebar{
+    max-width: 200px;
+    transition: all 0.5s;
+  }
+  .galleryslideshow-container, .gallerymySlides img{
+    height: 600px;
+  }
+
+  .continent-header , .continent-header-af, .continent-header-au, .continent-header-eu , .continent-header-na , .continent-header-sa{
+    height: 100px;
+  }
+  .card img{
+    height: 200px;
+  }
+ 
+  .image-section figure {
+    padding: 0px ;
+    margin: 0;
+    
+  }
+  .cenimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-section img{
+
+    min-width: 100px;
+    height: 200px;
+  }
+  .galleryslide-text a{
+    font-size: 2rem;
+  }
+}
