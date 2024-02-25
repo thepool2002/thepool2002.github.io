@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project for Sugam, Drumil and Fellipe</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="images/log.png" type="image/png">
+</head>
+
+<body>
+    <div class="header-outside">
+        <header class="contact-header">
+            <div class="navbaralign">
+                <div class="navbarlogo">
+                    <a href="index.html">
+                        <div class="img">
+                            &#916;
+                        </div>
+                        <span>
+                            <i>continent</i>
+                            <br> trek
+                        </span>
+                    </a>
+                </div>
+
+                <nav class="contact-navbar">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="gallery.html">
+                        Gallery
+                    </a>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                    <button class="contact-openBtn" id="openBtn">&equiv;</button>
+                </nav>
+            </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <button class="closeBtn" id="closeBtn">X</button>
+            <div class="nav-mirror-sidebar">
+                <a href="index.html"> Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="sidebar-fieldset">
+                <fieldset>
+                    <legend>
+                        <h1>Websites to Learn Coding</h1>
+                    </legend>
+                    
+                        <a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a>
+                       <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+                        <a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network Web
+                                Docs</a>
+                    
+                </fieldset>
+            </div>
+
+        </aside>
+    </div>
+    <br><br><br>
+
+    <article class="contact">
+
+        <div class="formsection">
+            <img src="images/gallery_images/redpanda2.avif"
+                alt="red panda" class="img1">
+            <img src="images/gallery_images/redpanda1.jpg"
+                alt="red panda" class="img2">
+
+            <form onsubmit="validation()">
+                <div class="formcontent">
+                    <h1>Contact Us</h1>
+                    <label for="name">Full Name :</label>
+                    <input class="inputs" type="text" id="name" name="name" required placeholder="your name">
+                    <br><br>
+
+                    <label for="email">Email :</label>
+                    <input class="inputs" type="email" id="email" name="email" required
+                        placeholder="abc.xyz@example.com">
+                    <br><br>
+
+                    <label for="feed">Feedback :</label>
+                    <textarea wrap="hard" name="feed" id="feed" cols="50" rows="10" required
+                        placeholder="type here"></textarea>
+
+                    <label for="rate-check">Rate Our Website?</label>
+
+                    <input type="checkbox" name="rate" id="rate-check" class="rate-check" onchange="rate()">
+
+                    <div class="rating-hidden" id="ratingContainer">
+                        <div class="rating">
+                            <div class="ratelet">
+                                <input type="radio" name="rate" id="best">
+                                <p>Best</p>
+                            </div>
+                            <div class="ratelet">
+                                <input type="radio" name="rate" id="verygood">
+                                <p>Very Good</p>
+                            </div>
+                            <div class="ratelet">
+                                <input type="radio" name="rate" id="good">
+                                <p>Good</p>
+                            </div>
+                            <div class="ratelet">
+                                <input type="radio" name="rate" id="bad">
+                                <p>Bad</p>
+                            </div>
+                            <div class="ratelet">
+                                <input type="radio" name="rate" id="verybad">
+                                <p>Very Bad</p>
+                            </div>
+                            <div class="ratelet">
+                                <input type="radio" name="rate" id="worst">
+                                <p>Worst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                    <br>
+                </div>
+            </form>
+
+        </div>
+      
+    </article>
+
+    <footer>
+        <a href="https://www.niagaracollegetoronto.ca/" target="_blank" class="logo">
+            <h1><span class="around">Drumil Fellipe Sugam - &#916; <i>Continent</i>Trek</span> 2023 - Niagara College Toronto</h1>
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

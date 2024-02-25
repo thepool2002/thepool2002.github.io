@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project for Sugam, Drumil and Fellipe</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="icon" href="images/log.png" type="image/png">
+</head>
+
+<body>
+    <span id="top"></span>
+    <div class="galleryheader-outside">
+        <div class="galleryheader">
+            <div class="gallerynavbaralign">
+                <div class="gallerynavbarlogo">
+                    <a href="index.html">
+                        <div class="galleryimg">
+                            &#916;
+                        </div>
+                        <span>
+                            <i>continent</i>
+                            <br> trek
+                        </span>
+                    </a>
+                </div>
+
+                <nav class="gallerynavbar">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="#gallery">
+                        Gallery
+                    </a>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                    <button class="galleryopenBtn" id="openBtn">&equiv;</button>
+                </nav>
+            </div>
+        </div>
+
+        <aside class="gallerysidebar" id="sidebar">
+            <button class="gallerycloseBtn" id="closeBtn">X</button>
+            <div class="nav-mirror-sidebar">
+                <a href="index.html">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+            <a href="reference.html">References</a>
+            <div class="sidebar-fieldset">
+                <fieldset>
+                    <legend>
+                        <h1>Websites to Learn Coding</h1>
+                    </legend>
+
+                    <a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a>
+                    <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network Web
+                        Docs</a>
+
+                </fieldset>
+            </div>
+        </aside>
+    </div>
+
+    <header class="galleryslideshow-container">
+
+
+
+        <div class="gallerymySlides">
+            <img src="images/gallery_images/Kheops-Pyramid.jpg" alt="Image 4">
+            <div class="galleryslide-text" style="bottom: 15%; 
+    left: 5%;  ">
+                <a href="#giza" onclick="togglecontinent('africa')">
+                    Pyramid of Giza,
+                    <br><span><i>Egypt</i></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="gallerymySlides">
+            <img src="images/gallery_images/machupicchu.webp"
+                alt="Image 1">
+            <div class="galleryslide-text" style="bottom: 15%; 
+        left: 5%;  ">
+                <a href="#machu-picchu" onclick="togglecontinent('south-america')">
+                    Machu Picchu,
+                    <br><span><i>Peru</i></span>
+                </a>
+            </div>
+        </div>
+        <div class="gallerymySlides">
+            <img src="images/gallery_images/mulanji.jpg"
+                alt="Image 1">
+            <div class="galleryslide-text" style="bottom: 15%; 
+        left: 5%;  ">
+                <a href="#mulanje" onclick="togglecontinent('africa')">
+                    Mount Mulanje ,
+                    <br><span><i>Malawi</i></span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="gallerymySlides">
+            <img src="images/gallery_images/tajmahal.webp"
+                alt="Image 2">
+            <div class="galleryslide-text" style="bottom: 15%; 
+        left: 5%;  ">
+                <a href="#taj" onclick="togglecontinent('asia')">
+                    Taj Mahal,
+                    <br><span><i>India</i></span>
+                </a>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="gallery-welcome" id="gallery">
+        <section>
+            <div class="overlay-text">
+                <h1>
+                    Welcome <br>To <br> Gallery
+                </h1>
+            </div>
+
+
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td><img class="first"
+                                src="images/gallery_images/kang.jpg"
+                                alt="kangaroo"></td>
+                        <td><img src="images/gallery_images/sydneyoperahouse.jpg"
+                                alt="Sydney_Opera_House"></td>
+                        <td><img class="second"
+                                src="images/gallery_images/edinburgh.webp"
+                                alt="Edinburgh"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/gallery_images/avenueoftheboababs.webp" alt="4">
+                        </td>
+                        <td><img src="images/gallery_images/uluru.webp" alt="5">
+                        </td>
+                        <td><img src="images/gallery_images/redpanda1.jpg"
+                                alt="6"></td>
+                    </tr>
+                    <tr>
+                        <td><img class="third"
+                                src="images/gallery_images/northamerica.jpg"
+                                alt="7"></td>
+                        <td><img src="images/gallery_images/watarun.jpg"
+                                alt="8"></td>
+                        <td><img class="fourth"
+                                src="images/gallery_images/tajmahal.webp"
+                                alt="9"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <p>
+                Welcome to our Gallery of Wonders! Explore six continents, each with a brief glimpse into its unique
+                charm. Click " <span>Learn More</span> " to delve deeper into the continent of your choice,
+                discovering four
+                of the most beautiful places of the continent. Let the world's diversity unfold with every click.
+                Happy exploring!
+
+            </p>
+
+        </section>
+    </div>
+
+    <div class="continents">
+
+        <div class="card" id="menu1">
+            <fieldset>
+                <img src="images/gallery_images/redpanda3.jpg"
+                    alt="red pandas">
+                <div class="card-text">
+                    <section>
+                        <h1>Asia</h1>
+                        <p>
+                            Asia beckons travelers with its unparalleled
+                            beauty. From the majestic peaks of the Himalayas to the pristine beaches of Southeast
+                            Asia,
+                            the
+                            continent offers a visual feast for the senses. Ancient temples and modern skyscrapers
+                            coexist,
+                            showcasing the rich tapestry of history and innovation. The vibrant street markets,
+                            adorned
+                            with
+                            colors and aromas, immerse visitors in a sensory adventure, creating an unforgettable
+                            journey for every traveler.
+                        </p>
+                    </section>
+                    <div class="learnmore">
+                        <a href="#asia" onclick="togglecontinent('asia')">Learn More</a>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="card" id="menu2">
+            <fieldset>
+                <img src="images/gallery_images/christtheredeemer.jpg"
+                    alt="Christ The Redeemer">
+                <div class="card-text">
+                    <section>
+                        <h1>South America</h1>
+                        <p>
+                            South America's beauty lies in its dramatic landscapes — from the lush Amazon Rainforest
+                            to
+                            the
+                            majestic Andes Mountains and sun-drenched beaches. Cities like Buenos Aires and Rio de
+                            Janeiro
+                            pulsate with vibrant street life, while ancient ruins like Machu Picchu showcase a rich
+                            cultural
+                            heritage. The continent's warm hospitality and the fusion of tradition with modern
+                            influences create
+                            an enchanting and unforgettable experience for travelers.
+                        </p>
+                    </section>
+                    <div class="learnmore">
+                        <a href="#south-america" onclick="togglecontinent('south-america')">Learn More</a>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="card" id="menu3">
+            <fieldset>
+                <img src="images/gallery_images/edinburgh.webp"
+                    alt="Edinburgh">
+                <div class="card-text">
+                    <section>
+                        <h1>Europe</h1>
+                        <p>Europe, a treasure trove of history and culture, enchants with iconic cities like Paris
+                            and
+                            Rome.
+                            Diverse landscapes, from Norway's fjords to the Mediterranean's beaches, add to its
+                            allure.
+                            Culinary
+                            delights, efficient transport, and vibrant festivals make exploring Europe's charming
+                            mix of
+                            old-world elegance and modern sophistication a captivating experience.</p>
+                    </section>
+                    <div class="learnmore">
+                        <a href="#europe" onclick="togglecontinent('europe')">Learn More</a>
+                    </div>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <div class="card" id="menu4">
+            <fieldset>
+                <img src="images/gallery_images/northamerica.jpg"
+                    alt="Grand Canyons">
+                <div class="card-text">
+                    <section>
+
+                        <h1>North America</h1>
+                        <p>
+                            North America, a continent of diverse allure, showcases iconic natural wonders like the
+                            Grand
+                            Canyon
+                            and the Rockies. Vibrant cities such as New York and Toronto pulsate with modern
+                            dynamism,
+                            while
+                            a
+                            rich cultural tapestry weaves together indigenous traditions and immigrant histories.
+                            Sprawling
+                            national parks, offer a haven for nature enthusiasts.
+                        </p>
+                    </section>
+                    <div class="learnmore">
+                        <a href="#north-america" onclick="togglecontinent('north-america')">Learn More</a>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="card" id="menu5">
+            <fieldset>
+                <img src="images/gallery_images/victoriafalls.jpg"
+                    alt="Victoria Falls">
+                <div class="card-text">
+                    <section>
+                        <h1> Africa</h1>
+                        <p>
+                            Africa unfolds with iconic landscapes like the Sahara and
+                            Serengeti. Ancient wonders, such as
+                            the
+                            Egyptian pyramids, coexist with vibrant modern cities. Diverse cultures, warm
+                            hospitality, and a tapestry of traditions make Africa a captivating destination.
+                        </p>
+                    </section>
+                    <div class="learnmore">
+                        <a href="#africa" onclick="togglecontinent('africa')">Learn More</a>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="card" id="menu6">
+            <fieldset>
+                <img src="images/gallery_images/kang.jpg"
+                    alt="kangaroo">
+                <div class="card-text">
+                    <section>
+                        <h1>Australia</h1>
+                        <p>
+                            Australia boasts iconic landmarks like the Sydney Opera House and the Great Barrier
+                            Reef.
+                            Vast
+                            Outback landscapes, pristine beaches, and unique wildlife, coupled with a vibrant
+                            lifestyle
+                            and
+                            indigenous cultures, create an inviting destination for travelers.
+                        </p>
+                    </section>
+                    <div class="learnmore">
+                        <a href="#australia" onclick="togglecontinent('australia')">Learn More</a>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+    </div>
+
+    <br><br><br><br>
+    <br>
+    <div class="continents-detail">
+        <div class="continent-out">
+
+            <div class="continent" id="asia">
+                <div class="about-continent">
+                    <div class="about-continent-fieldset">
+                        <div class="about-continent-legend">
+                            <div class="continent-header">
+                                <h1>ASIA</h1>
+                            </div>
+                        </div>
+                        <div class="image-section">
+                            <div class="text-part">
+                                <p>
+                                    Asia, the world's largest and most diverse continent, is a breathtaking tapestry of
+                                    natural
+                                    beauty,
+                                    vibrant cultures, and rich history. It occupies the eastern four-fifths of the giant
+                                    Eurasian
+                                    landmass.</p>
+                                <p>
+                                    Asia is known for its stunning landscapes that range from the snow-capped peaks of
+                                    the
+                                    Himalayas
+                                    to
+                                    the
+                                    lush, tropical rainforests of Southeast Asia. It has both the highest and the lowest
+                                    points
+                                    on
+                                    the
+                                    surface of Earth, and has the longest coastline of any continent. The continent is
+                                    subject
+                                    overall
+                                    to
+                                    the world's widest climatic extremes.
+                                </p>
+                                <p style="margin-bottom: 0px;">
+                                    The continent is rich in natural resources, such as petroleum, forests, fish, water,
+                                    rice,
+                                    copper,
+                                    and
+                                    silver. Manufacturing in Asia has traditionally been strongest in East and Southeast
+                                    Asia,
+                                    particularly
+                                    in China, Taiwan, South Korea, Japan, India, the Philippines, and Singapore.
+                                </p>
+                            </div>
+                            <figure>
+                                <div class="cenimg">
+                                    <img src="images/gallery_images/asiaingreen.png"
+                                        alt="asia">
+                                </div>
+                                <figcaption> Asia shown in green</figcaption>
+                            </figure>
+                        </div>
+
+                        <p>
+
+                            Asia is also home to a myriad of different cultures and civilizations, each with
+                            their
+                            own
+                            unique
+                            traditions and customs. Its 4.7 billion people constitute roughly 60% of the world's
+                            population.
+                        </p>
+                        <p>
+                            From the bustling markets of Bangkok to the serene temples of Kyoto, from the Great
+                            Wall
+                            of
+                            China to
+                            the
+                            beautiful beaches of Bali, Asia's beauty lies in its diversity and its people. Each
+                            corner
+                            of
+                            this
+                            vast
+                            continent offers a different flavor, a different experience, and a different
+                            perspective
+                            on
+                            life.
+                            It's a
+                            place where ancient traditions coexist with modern life, creating a vibrant and
+                            dynamic
+                            mix
+                            that
+                            is
+                            uniquely Asian.
+                        </p>
+                        <p>
+                            So, whether you're trekking through the jungles of Borneo, exploring the historic
+                            sites
+                            of
+                            India, or
+                            enjoying the culinary delights of street food in Vietnam, Asia offers an
+                            unparalleled
+                            adventure
+                            that
+                            is
+                            as diverse as the continent itself. It's a place that captures the imagination and
+                            the
+                            heart,
+                            and
+                            once
+                            visited, is never forgotten.
+                        </p>
+
+
+                        <div class="places-asia">
+                            <div class="asia-p">
+                                <p> Here are four stunning destinations in Asia that you'll definitely want to explore.
+                                </p>
+                                <div class="places">
+
+                                    <div class="place">
+                                        <img src="images/gallery_images/lumbini.jpg"
+                                            alt="Lumbini">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Lumbini, Nepal</h1>
+                                                </legend>
+
+                                                <p>
+                                                    Lumbini, in modern-day Nepal, near the Indian border, is revered as
+                                                    the
+                                                    birthplace of Siddhartha Gautama, known as the Buddha. Queen
+                                                    Mahamayadevi gave birth to Siddhartha Gautama around 563 BCE. It's a
+                                                    key
+                                                    Buddhist pilgrimage site, one of the four main in the world, and a
+                                                    UNESCO World Heritage Site.
+                                                </p>
+                                                <p>
+
+                                                    Lumbini's beauty lies in its rich history, spiritual significance,
+                                                    and
+                                                    tranquility. The archaeological area includes structures like the
+                                                    Maya
+                                                    Devi Temple and the Ashoka pillar. Excavated remains of Buddhist
+                                                    viharas
+                                                    and stupas span from the 3rd century BC to the 15th century AD.
+                                                </p>
+                                                <p>
+                                                    The holy site is surrounded by a monastic zone, maintaining a serene
+                                                    and
+                                                    spiritual atmosphere with no commercial establishments. Lumbini is
+                                                    evolving into a Buddhist pilgrimage center centered on the Lord
+                                                    Buddha's
+                                                    birthplace.
+                                                </p>
+                                                <p>
+                                                    Beyond its historical and religious importance, Lumbini boasts
+                                                    natural
+                                                    beauty, including a sacred garden and an ancient bathing pond,
+                                                    creating
+                                                    a peaceful getaway that radiates spirituality. A must-visit for
+                                                    those
+                                                    interested in Buddhism, history, or seeking serenity.
+                                                </p>
+                                            </fieldset>
+
+                                        </div>
+                                    </div>
+                                    <div class="place" id="taj">
+                                        <img src="images/gallery_images/tajmahal.webp"
+                                            alt="tajmahal">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Taj Mahal, India</h1>
+                                                </legend>
+                                                <p>
+                                                    The Taj Mahal, a renowned symbol of love and beauty, is an
+                                                    ivory-white
+                                                    marble mausoleum situated on the right bank of the Yamuna River in
+                                                    Agra,
+                                                    Uttar Pradesh, India. Commissioned in 1631 by the fifth Mughal
+                                                    emperor,
+                                                    Shah Jahan, to house his wife Mumtaz Mahal's tomb, it also contains
+                                                    Shah
+                                                    Jahan's tomb.
+                                                </p>
+                                                <p>
+                                                    This marvel of Mughal architecture features a stunning dome,
+                                                    minarets,
+                                                    and intricate carvings. The 17-hectare (42-acre) complex, enclosed
+                                                    by a
+                                                    crenellated wall, includes a mosque and guest house. Around 20,000
+                                                    artisans, guided by a board of architects led by Ustad Ahmad Lahori,
+                                                    the
+                                                    emperor's court architect, participated in the construction.
+                                                </p>
+                                                <p>
+                                                    The Taj Mahal's beauty lies not only in its grandeur but also in the
+                                                    love and loss story it conveys, a testament to Shah Jahan's
+                                                    affection
+                                                    for Mumtaz Mahal and a symbol of India's rich history. Designated a
+                                                    UNESCO World Heritage Site in 1983, it is celebrated as "the jewel
+                                                    of
+                                                    Muslim art in India and one of the universally admired masterpieces
+                                                    of
+                                                    the world's heritage."
+                                                </p>
+                                                <p>
+                                                    With its symmetrical structure, gleaming white marble, and intricate
+                                                    inlay work, the Taj Mahal is a captivating sight. The reflection in
+                                                    the
+                                                    Yamuna River, especially during sunrise and sunset, enhances its
+                                                    ethereal beauty. This monument, inspiring poets and artists for
+                                                    centuries, continues to captivate visitors worldwide.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/meguroriver.webp"
+                                            alt="Meguro_River">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Meguro River, Japan</h1>
+                                                </legend>
+                                                <p>
+                                                    The Meguro River, situated in Tokyo, Japan, is a picturesque urban
+                                                    sanctuary flowing through multiple wards, including Setagaya,
+                                                    Meguro, and Shinagawa. Stretching over a distance of approximately
+                                                    7.82 kilometers, its banks are meticulously landscaped, creating
+                                                    green spaces for the surrounding communities.
+                                                </p>
+                                                <p>
+                                                    An enchanting feature of the Meguro River is its mesmerizing
+                                                    showcase of cherry blossoms during springtime. The river transforms
+                                                    into a favored location for cherry blossom viewing, as the trees
+                                                    along its banks burst into a riot of pink, forming a breathtaking
+                                                    spectacle and establishing it as a prominent cherry blossom viewing
+                                                    spot in Japan.
+                                                </p>
+                                                <p>
+                                                    The river's pedestrianized riverside walking paths offer a tranquil
+                                                    escape from the bustling city life and can be accessed from various
+                                                    stations, including Ikejiri-Ōhashi Station, Naka-Meguro Station,
+                                                    Meguro Station, and Gotanda Station.
+                                                </p>
+                                                <p>
+                                                    Beyond its natural allure, the Meguro River area boasts diverse
+                                                    tourist attractions, restaurants, and hotels, making it a dynamic
+                                                    and appealing destination. The Meguro ward, named after the river,
+                                                    encompasses Nakameguro, Jiyugaoka, Komaba, and Aobadai.
+                                                </p>
+                                                <p>
+                                                    In essence, the Meguro River, with its scenic beauty and cultural
+                                                    richness, presents a distinctive fusion of natural splendor and
+                                                    urban charm.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/watarun.jpg"
+                                            alt="Wat_Arun">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Wat Arun, Thailand</h1>
+                                                </legend>
+                                                <p>
+                                                    Wat Arun, also recognized as the "Temple of Dawn," stands as a
+                                                    breathtaking Buddhist temple situated in the Bangkok Yai district of
+                                                    Thailand's capital city. Located on the western bank of the Chao
+                                                    Phraya River in Thonburi, the temple draws its name from Aruna, the
+                                                    Hindu god symbolizing the radiations of the rising sun.
+                                                </p>
+                                                <p>
+                                                    A distinctive feature of Wat Arun is its central prang, adorned with
+                                                    vibrant porcelain. This towering spire, exceeding 200 feet in
+                                                    height, captivates observers. The temple boasts a renowned
+                                                    collection of over a million colorful, glazed ceramic tiles.
+                                                    Construction of the spire took place in the early 19th century
+                                                    during the reigns of Rama II and Rama III.
+                                                </p>
+                                                <p>
+                                                    Beyond its aesthetic allure, Wat Arun is a repository of historical
+                                                    significance. A Buddhist temple has occupied this site since the
+                                                    Ayutthaya Kingdom era, initially known as Wat Makok after the
+                                                    village of Bang Makok. King Taksin later renamed it Wat Chaeng when
+                                                    he established his new capital, Thonburi, near the temple following
+                                                    the fall of Ayutthaya.
+                                                <p>
+                                                    Wat Arun not only captivates the eye with its architectural beauty
+                                                    and intricate designs but also resonates with a rich history and
+                                                    cultural importance. It symbolizes the nation's resilience and
+                                                    faith, standing tall and majestic as it welcomes the dawn of each
+                                                    new day.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="continent" id="south-america">
+                <div class="about-continent">
+                    <div class="about-continent-fieldset">
+                        <div class="about-continent-legend">
+                            <div class="continent-header-sa">
+                                <h1><span>SOUTH</span> <span>AMERICA</span></h1>
+                            </div>
+                        </div>
+                        <div class="image-section">
+                            <div class="text-part">
+                                <p>
+                                    South America, a continent renowned for its natural marvels, vibrant cultures, and
+                                    captivating history, stands as a realm of breathtaking beauty.
+                                </p>
+                                <p>
+                                    From the snow-capped peaks of the Andes, the world's longest mountain range, to the
+                                    expanses
+                                    of the Amazon Rainforest, Earth's largest rainforest, South America's varied
+                                    landscapes
+                                    are
+                                    truly awe-inspiring. The continent also boasts the stunning Iguazu Falls, the vast
+                                    Pantanal
+                                    wetlands, and the surreal terrains of the Atacama Desert, the driest place on the
+                                    planet.
+                                </p>
+                                <p>
+                                    South America's cultural mosaic mirrors its geographical diversity, blending
+                                    indigenous
+                                    traditions, colonial influences, and modern vibrancy. Recognized for its musical and
+                                    dance
+                                    expressions, such as the passionate Tango of Argentina, the lively Samba of Brazil,
+                                    and
+                                    the
+                                    rhythmic Cumbia of Colombia.
+                                </p>
+                            </div>
+                            <figure>
+                                <div class="cenimg">
+                                    <img src="images/gallery_images/southamericagreen.webp"
+                                        alt="south-america">
+                                </div>
+                                <figcaption> South America shown in green</figcaption>
+                            </figure>
+                        </div>
+                        <p>
+                            Steeped in history, South America boasts ancient sites like the Inca city of Machu
+                            Picchu in
+                            Peru and the historic quarter of Valparaiso in Chile. The continent's history weaves
+                            together indigenous cultures, European colonization, and the struggle for
+                            independence.
+                        </p>
+                        <p>
+                            In terms of biodiversity, South America is a treasure trove. The Amazon Rainforest,
+                            housing
+                            an estimated 400 billion individual trees representing 16,000 species, is a prime
+                            example.
+                            The Galapagos Islands, situated off the coast of Ecuador, are renowned for their
+                            unique
+                            wildlife, inspiring Charles Darwin's theory of evolution.
+                        </p>
+                        <p>
+                            In conclusion, South America's allure lies in its diverse landscapes, vibrant
+                            cultures,
+                            historical significance, and remarkable biodiversity—a continent that undeniably
+                            offers
+                            something for everyone.
+                        </p>
+
+                        <div class="places-sa">
+                            <div class="sa-p">
+                                <p> Here are four stunning destinations in South America that you'll definitely want to
+                                    explore.
+                                </p>
+                                <div class="places">
+
+                                    <div class="place">
+                                        <img src="images/gallery_images/christtheredeemer.jpg"
+                                            alt="Brazil">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Christ The Redeemer, Brazil</h1>
+                                                </legend>
+
+                                                <p>
+                                                    Christ the Redeemer, known as "Cristo Redentor" in Portuguese, is an
+                                                    imposing statue situated atop Corcovado mountain in Rio de Janeiro,
+                                                    Brazil. This iconic representation of Jesus Christ, arms
+                                                    outstretched as if embracing the world, serves as a symbol of love
+                                                    and redemption.
+                                                </p>
+                                                <p>
+                                                    The statue stands at an impressive 30 meters in height, mounted on
+                                                    an 8-meter pedestal, on the 700-meter-high Corcovado mountain.
+                                                    Constructed between 1922 and 1931 from soapstone and reinforced
+                                                    concrete, it holds the title of the largest Art Deco-style sculpture
+                                                    globally and stands as one of Rio de Janeiro's most iconic
+                                                    landmarks.
+                                                </p>
+                                                <p>
+                                                    Christ the Redeemer's allure extends beyond its size and symbolic
+                                                    significance; its location is equally captivating. Perched atop
+                                                    Mount Corcovado, it provides stunning panoramic views of Rio de
+                                                    Janeiro's vibrant city and picturesque landscapes. The statue's open
+                                                    arms seemingly mirror the welcoming spirit of the Brazilian people,
+                                                    contributing to its overall charm.
+                                                </p>
+                                                <p>
+                                                    Whether viewed from the bustling city below or from the mountain's
+                                                    summit, the statue appears serene against the backdrop of the blue
+                                                    sky. Up close, its grandeur is truly awe-inspiring. Illuminated at
+                                                    night, it becomes a beacon of hope and faith visible from nearly
+                                                    every part of the city.
+                                                </p>
+                                                <p>
+                                                    Whether witnessing it from the lively cityscape or standing at its
+                                                    base on the mountaintop, the Christ the Redeemer statue stands as a
+                                                    testament to human artistry and spiritual symbolism, presenting a
+                                                    genuinely breathtaking sight.
+
+                                                </p>
+                                            </fieldset>
+
+                                        </div>
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/torresdelpaine.jpg"
+                                            alt="Chile">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Torres del Paine National Park, Chile</h1>
+                                                </legend>
+                                                <p>
+                                                    Torres del Paine National Park, situated in southern Chilean
+                                                    Patagonia, is a captivating natural marvel. The park unfolds as a
+                                                    magnificent tapestry of mountains, glaciers, lakes, and rivers, with
+                                                    the Cordillera del Paine standing as the focal point—a majestic
+                                                    mountain range providing a dramatic backdrop to the diverse
+                                                    landscapes.
+                                                </p>
+                                                <p>
+
+                                                    Notably, the park features the distinctive three granite peaks of
+                                                    the Paine mountain range, known as Torres d'Agostini, Torres
+                                                    Central, and Torres Monzino. These towers reach heights of up to
+                                                    2,500 meters above sea level, accompanied by the Cuernos del Paine,
+                                                    enhancing the park's unique skyline.
+                                                </p>
+                                                <p>
+                                                    The park is also home to various glaciers, including Grey, Pingo,
+                                                    and Tyndall, part of the Southern Patagonia Ice Field, contributing
+                                                    icy beauty to the scenery. Renowned lakes like Grey, Pehoé,
+                                                    Nordenskiöld, and Sarmiento offer serene and picturesque views.
+                                                </p>
+                                                <p>
+                                                    Beyond its physical features, the park lies in a transition area
+                                                    between the Magellanic subpolar forests and the Patagonian Steppes,
+                                                    establishing it as a biodiversity hotspot. Rich in history, early
+                                                    explorations and conservation efforts have shaped its current
+                                                    status.
+                                                </p>
+                                                <p>
+                                                    Visitors can immerse themselves in the rugged and beautiful
+                                                    landscape through activities such as driving, hiking, horseback
+                                                    riding, and boating. The rewards are unparalleled, from witnessing
+                                                    sunsets on the lagoon to exploring glacier edges and enjoying
+                                                    sweeping views that set the heart racing.
+                                                </p>
+                                                <p> In essence, Torres del Paine National Park stands as a testament to
+                                                    nature's grandeur and diversity. Its stunning landscapes, abundant
+                                                    biodiversity, and intriguing history make it an essential
+                                                    destination for nature enthusiasts and adventurers alike.
+
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place" id="machu-picchu">
+                                        <img src="images/gallery_images/machupicchu.webp"
+                                            alt="Peru">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Machu Picchu, Peru</h1>
+                                                </legend>
+                                                <p>
+                                                    Machu Picchu, commonly known as the "Lost City of the Incas," stands
+                                                    as a 15th-century Inca citadel situated in the Eastern Cordillera of
+                                                    southern Peru on a mountain ridge with an elevation of approximately
+                                                    2,430 meters (7,970 feet). This ancient Inca site, positioned around
+                                                    50 miles from Cuzco, Peru, in the Cordillera de Vilcabamba of the
+                                                    Andes Mountains, boasts the translation of its name from the native
+                                                    Quechua language as "old peak."
+                                                </p>
+                                                <p>
+
+                                                    Encompassing a vast area of about 5 miles, the site exhibits
+                                                    numerous levels and comprises over 150 structures, ranging from
+                                                    baths and houses to temples and sanctuaries. Constructed primarily
+                                                    with granite, these ruins seamlessly blend with the mountains,
+                                                    showcasing the Inca's meticulous craftsmanship. The Inca ingeniously
+                                                    crafted granite blocks to fit tightly together without the use of
+                                                    mortar, resulting in structures where a knife cannot penetrate the
+                                                    gaps. Many buildings feature trapezoidal doors and thatched roofs.
+                                                </p>
+                                                <p>
+
+                                                    Machu Picchu's allure extends beyond its architectural wonders,
+                                                    encompassing its harmonious integration with the breathtaking
+                                                    natural surroundings. Nestled amidst the Andes Mountains and
+                                                    overlooking the Urubamba River, the site offers a captivating
+                                                    panorama that captivates visitors. The unique combination of
+                                                    architectural brilliance, historical significance, and the
+                                                    surrounding natural splendor renders Machu Picchu an exceptionally
+                                                    enchanting and unparalleled destination.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/iguazufalls.webp"
+                                            alt="Iguazu_Falls">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Iguazu Falls, Argentina/Brazil</h1>
+                                                </legend>
+                                                <p>
+                                                    The Iguazu Falls, situated on the border of Argentina and Brazil,
+                                                    present a stunning display of nature's strength and beauty. They
+                                                    hold the title of the world's largest waterfall system, extending
+                                                    nearly 3 km along the border. Comprising around 275 distinct
+                                                    vertical drops, these falls range in height from 60 meters to 82
+                                                    meters. This surpasses the height of Niagara Falls and boasts twice
+                                                    the width.
+                                                </p>
+                                                <p>
+                                                    Resembling an elongated horseshoe spanning 1.7 miles (2.7 km),
+                                                    nearly three times wider than Niagara Falls, the falls split into
+                                                    approximately 275 separate cascades, varying in height between 200
+                                                    and 269 feet (60 and 82 meters). Several individual falls are
+                                                    interrupted midway by ledges.
+                                                </p>
+                                                <p>
+                                                    The name 'Iguazu' loosely translates from the indigenous Guarani
+                                                    language as "big water." Legend has it that a deity, angered by a
+                                                    mortal lover fleeing in a canoe with the beautiful woman Naipí,
+                                                    sliced the river, giving rise to the waterfalls and condemning the
+                                                    lovers to an eternal fall.
+                                                </p>
+                                                <p>
+                                                    The first European to document the falls was the Spanish
+                                                    Conquistador Álvar Núñez Cabeza de Vaca in 1541. The cascading
+                                                    character of the falls is exemplified by a two-step waterfall formed
+                                                    by three layers of basalt, with steps measuring 35 and 40 meters
+                                                    (115 and 131 ft) in height.
+                                                </p>
+                                                <p>
+                                                    The Iguazu Falls stand as a testament to the unbridled power and
+                                                    splendor of nature, leaving visitors in awe of their grandeur and
+                                                    beauty. Whether observed from the Brazilian side or the Argentine
+                                                    side, the falls provide a unique and unforgettable experience
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="continent" id="europe">
+                <div class="about-continent">
+                    <div class="about-continent-fieldset">
+                        <div class="about-continent-legend">
+                            <div class="continent-header-eu">
+                                <h1>EUROPE</h1>
+                            </div>
+                        </div>
+                        <div class="image-section">
+                            <div class="text-part">
+                                <p>
+                                    Europe, a continent characterized by immense diversity and allure, is a tapestry
+                                    woven with varied landscapes, cultures, and histories. Its allure extends beyond
+                                    picturesque landscapes to encompass a profound cultural heritage and dynamic urban
+                                    centers.
+                                </p>
+                                <p>
+                                    Within Europe lie some of the world's most awe-inspiring natural wonders. From the
+                                    rugged cliffs along Ireland's Wild Atlantic Way to the sun-drenched beaches of the
+                                    Mediterranean, the icy fjords of Norway to the vine-covered hills of France, each
+                                    locale presents a distinctive and breathtaking panorama. Examples include the Swiss
+                                    Alps, the Scottish Highlands, the azure waters of the Greek Isles, and the volcanic
+                                    terrains of Iceland.
+                                </p>
+                                <p>
+                                    Europe's cities stand as testaments to its rich history and architectural splendor.
+                                    The Colosseum in Rome, the Eiffel Tower in Paris, the Acropolis in Athens, and the
+                                    Tower of London stand as iconic landmarks. Meanwhile, the quaint streets of Prague,
+                                    the canals of Venice, the architecturally inspired structures in Barcelona, and the
+                                    historical walls of Dubrovnik collectively contribute to Europe's architectural
+                                    charisma.
+                                </p>
+                            </div>
+                            <figure>
+                                <div class="cenimg">
+                                    <img src="images/gallery_images/europeingreen.webp"
+                                        alt="europe">
+                                </div>
+                                <figcaption> Europe shown in green</figcaption>
+                            </figure>
+                        </div>
+                        <p>
+                            The beauty of Europe also resides in its diverse cultural tapestry. Each country, region,
+                            and city boasts its own unique culture, traditions, and festivals. Whether it's the flamenco
+                            dancers in Spain, the bagpipers in Scotland, the cheese artisans in France, or the glass
+                            craftsmen in Italy, each element adds vibrancy to the rich fabric of European culture.
+                        </p>
+                        <p>
+                            Europe is the birthplace of numerous world-renowned artists and writers. Museums in Paris,
+                            London, Amsterdam, and Madrid house some of the most famous artworks globally. The literary
+                            contributions of Shakespeare, Dostoevsky, Cervantes, and Kafka are integral to the global
+                            literary legacy.
+                        </p>
+                        <p>
+                            In essence, Europe's allure stems from a harmonious blend of natural marvels, architectural
+                            wonders, cultural diversity, and a storied history of art and literature. It remains a
+                            continent that has captivated poets, artists, and dreamers for centuries and continues to do
+                            so today. Whether exploring a vibrant city, unwinding on a serene beach, trekking in
+                            majestic mountain ranges, or immersing oneself in local traditions, Europe provides endless
+                            opportunities for exploration and enchantment.
+                        </p>
+
+                        <div class="places-eu">
+                            <div class="eu-p">
+                                <p> Here are four stunning destinations in Europe that you'll definitely want to
+                                    explore.
+                                </p>
+                                <div class="places">
+
+                                    <div class="place">
+                                        <img src="images/gallery_images/edinburgh.webp"
+                                            alt="Edinburgh">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Edinburgh, Scotland</h1>
+                                                </legend>
+
+                                                <p>
+                                                    Edinburgh, the capital of Scotland, is a lively metropolis steeped
+                                                    in culture, history, and picturesque landscapes. Positioned in the
+                                                    southeastern part of Scotland, its core is situated near the
+                                                    southern edge of the Firth of Forth. The city is bordered to the
+                                                    north by the Firth of Forth estuary and to the south by the Pentland
+                                                    Hills.
+                                                </p>
+                                                <p>
+                                                    Edinburgh is characterized by a solemn sense of theatricality and
+                                                    serves as a significant hub for finance, law, tourism, education,
+                                                    and cultural activities. It has held prominence for centuries,
+                                                    prioritizing education and the arts. Presently, the city is home to
+                                                    500,000 residents and hosts various cultural events, such as the
+                                                    Edinburgh Fringe and Edinburgh Festival.
+                                                </p>
+                                                <p>
+                                                    The allure of Edinburgh is both breathtaking and impressive. Whether
+                                                    against the city's skyline, along its cobblestone streets, or amidst
+                                                    its vibrant characters, there are myriad ways to immerse yourself,
+                                                    explore, have fun, and forge lasting memories in Edinburgh. From the
+                                                    central skyline seen from Calton Hill and landmarks like the Scott
+                                                    Monument, Scottish Parliament Building, to Arthur's Seat, every
+                                                    facet of the city presents a distinct and awe-inspiring panorama.
+                                                </p>
+                                                <p>
+                                                    Edinburgh boasts UNESCO World Heritage Site status, a recognition of
+                                                    its rich history, culture, and economic contributions. It serves as
+                                                    the seat for the Scottish Government, the Scottish Parliament, the
+                                                    highest courts in Scotland, and the Palace of Holyroodhouse, the
+                                                    official residence of the British monarch in Scotland.
+                                                </p>
+                                                <p>
+                                                    In essence, Edinburgh is a city replete with unparalleled,
+                                                    multi-sensory experiences awaiting enjoyment by all.
+                                                </p>
+                                            </fieldset>
+
+                                        </div>
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/paris.jpg"
+                                            alt="Paris">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Paris, France</h1>
+                                                </legend>
+                                                <p>
+                                                    Paris, commonly known as the "City of Light," exudes beauty from
+                                                    every corner. The city boasts an abundance of delightful shops,
+                                                    artistic museums, boutique hotels, and renowned landmarks.
+                                                </p>
+                                                <p>
+                                                    The majestic Eiffel Tower stands tall, creating a striking
+                                                    silhouette against the sky, while the picturesque banks of the Seine
+                                                    River gently reflect the city's grandeur. Paris is home to numerous
+                                                    green spaces, with the Jardin du Luxembourg being one of the most
+                                                    famous—a beloved spot for locals to stroll and unwind.
+                                                </p>
+                                                <p>
+                                                    Renowned for its architectural wonders, Paris showcases the enduring
+                                                    beauty of French Gothic architecture through the Cathédrale
+                                                    Notre-Dame, which continues to attract large crowds despite the
+                                                    tragic fire in 2019. The Musée Rodin and the Musée Jacquemart-André
+                                                    are other notable attractions, housing works by celebrated artists
+                                                    such as Rembrandt, Bellini, Botticelli, and more.
+                                                </p>
+                                                <p>
+                                                    The city's allure goes beyond clichés, with a rich history evident
+                                                    throughout its various arrondissements. Whether it's your initial or
+                                                    fifth time exploring the cobblestoned streets of Saint-Germain or
+                                                    hearing the bells toll from Notre-Dame, Paris's charm remains
+                                                    enchanting.
+                                                </p>
+                                                <p>
+                                                    In addition to its physical allure, Paris serves as a hub for beauty
+                                                    and fashion. Brands like L'Oréal Paris offer an extensive range of
+                                                    beauty products, showcasing the city's influence on global beauty
+                                                    trends.
+                                                </p>
+                                                <p>
+                                                    Each visit to Paris reveals something new about the city, turning it
+                                                    into a place of boundless discovery.
+
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/colosseum.jpg"
+                                            alt="Italy">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Colosseum, Italy</h1>
+                                                </legend>
+                                                <p>
+                                                    The iconic symbol of Imperial Rome, commonly known as the Colosseum
+                                                    or the Flavian Amphitheatre, is situated in the heart of Rome,
+                                                    Italy, just east of the Roman Forum.
+                                                </p>
+                                                <p>
+
+                                                    Built during the rule of the Flavian emperors, this elliptical
+                                                    amphitheatre holds the distinction of being the largest ancient
+                                                    amphitheatre ever constructed and remains the world's largest
+                                                    standing amphitheatre, despite the passage of time. Its construction
+                                                    commenced under Emperor Vespasian in 72 AD and reached completion in
+                                                    80 AD under his successor and heir, Titus, with further
+                                                    modifications carried out during the reign of Domitian.
+                                                </p>
+                                                <p>
+                                                    A marvel of ancient engineering, the Colosseum is crafted from
+                                                    travertine limestone, tuff (volcanic rock), and brick-faced
+                                                    concrete. Over its history, it accommodated an estimated 50,000 to
+                                                    80,000 spectators, with an average audience of around 65,000. The
+                                                    amphitheatre served various purposes, including gladiatorial
+                                                    contests, animal hunts, executions, re-enactments of famous battles,
+                                                    and dramas based on Roman mythology.
+                                                </p>
+                                                <p>
+                                                    Despite substantial damage from earthquakes and stone robbers, the
+                                                    grandeur and historical significance of the Colosseum endure. It
+                                                    continues to stand as a renowned symbol of Imperial Rome and earned
+                                                    a place among the New 7 Wonders of the World. Today, it remains one
+                                                    of Rome's premier tourist attractions, with ties to the Catholic
+                                                    Church evident in the annual Good Friday torchlit "Way of the Cross"
+                                                    procession led by the Pope in the Colosseum's vicinity.
+                                                </p>
+                                                <p>
+                                                    The beauty of the Colosseum extends beyond its impressive
+                                                    architecture to embody a rich history. It stands as a testament to
+                                                    the grandeur of the Roman Empire, the ingenuity of its engineers,
+                                                    and the cultural importance of public spectacles in ancient society.
+                                                    As a powerful reminder of the past, the Colosseum serves as a source
+                                                    of inspiration for the future.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/acropolisofathens.jpeg"
+                                            alt="Greece">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Acropolis of Athens, Greece</h1>
+                                                </legend>
+                                                <p>
+                                                    The Acropolis of Athens stands as a symbol of ancient civilization
+                                                    and architectural splendor, perched on a rocky outcrop overlooking
+                                                    the city of Athens, Greece. Within its confines lie the remnants of
+                                                    several historically and architecturally significant ancient
+                                                    structures, with the Parthenon being the most renowned.
+                                                </p>
+                                                <p>
+                                                    In Greek, the term "acropolis" translates to "high city" and can
+                                                    denote various natural strongholds erected on elevated rocky terrain
+                                                    throughout Greece. However, the Acropolis of Athens is the most
+                                                    prominent among them. Comprising limestone rock dating back to the
+                                                    Late Cretaceous period, the Acropolis sits on the Attica plateau and
+                                                    encompasses four hills: Likavitos Hill, Hill of the Nymphs, The Pynx
+                                                    Hill, and Philapappos Hill.
+                                                </p>
+                                                <p>
+                                                    The flat apex of the Acropolis is the result of millennia of
+                                                    construction that commenced as early as the Bronze Age. Throughout
+                                                    its history, the Acropolis has served various purposes, including a
+                                                    royal residence, a citadel, a mythical abode of the gods, a
+                                                    religious center, and a tourist attraction. Despite enduring
+                                                    bombardments, powerful earthquakes, and acts of vandalism, it
+                                                    endures as a testament to Greece's rich history.
+                                                </p>
+                                                <p>
+                                                    Today, recognized as a UNESCO World Heritage site, the Acropolis
+                                                    houses several temples, with the Parthenon standing out as the most
+                                                    eminent. The structures suffered considerable damage during the 1687
+                                                    Venetian siege in the Morean War, triggered by an explosion
+                                                    resulting from Venetian bombardment on gunpowder stored by the then
+                                                    Turkish rulers in the Parthenon.
+                                                </p>
+                                                <p>
+                                                    The allure of the Acropolis extends beyond its ancient edifices and
+                                                    the narratives they encapsulate; it also lies in its elevated
+                                                    position above Athens. From its vantage point, one can behold the
+                                                    sprawling city below, the azure Aegean Sea, and the encompassing
+                                                    mountains. The Acropolis stands as a tribute to the resourcefulness
+                                                    and artistry of ancient civilizations, with its enduring beauty
+                                                    eliciting ongoing awe and admiration.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="continent" id="north-america">
+                <div class="about-continent">
+                    <div class="about-continent-fieldset">
+                        <div class="about-continent-legend">
+                            <div class="continent-header-na">
+                                <h1><span>NORTH</span> <span>AMERICA</span></h1>
+                            </div>
+                        </div>
+                        <div class="image-section">
+                            <div class="text-part">
+                                <p>
+                                    North America, an expansive continent extending from the Arctic Circle to the
+                                    Tropics, showcases a remarkable array of natural wonders and diversity.
+                                </p>
+                                <p>
+                                    Commencing in the northern reaches, the landscape is characterized by the icy tundra
+                                    and awe-inspiring fjords of Canada and Alaska. This area boasts a diverse array of
+                                    wildlife, including polar bears, wolves, and the majestic bald eagle. The Northern
+                                    Lights, or Aurora Borealis, add to the allure with a captivating display of colors
+                                    illuminating the sky.
+                                </p>
+                                <p>
+                                    Heading southward, the scenery transforms into the lush and vast forests of the
+                                    Pacific Northwest and the grandeur of the Rocky Mountains, stretching from Canada to
+                                    the southwestern United States. These locales attract outdoor enthusiasts with
+                                    opportunities for hiking, skiing, and mountain climbing.
+                                </p>
+                                <p>
+                                    Continuing further south, the landscape transitions to the captivating beauty of the
+                                    American Southwest, featuring distinct red rock formations and expansive desert
+                                    vistas. This region is steeped in Native American history and culture.
+                                </p>
+                            </div>
+                            <figure>
+                                <div class="cenimg">
+                                    <img src="images/gallery_images/northamericaingreen.svg"
+                                        alt="north-america">
+                                </div>
+                                <figcaption> North America shown in green</figcaption>
+                            </figure>
+                        </div>
+                        <p>
+                            On the Eastern seaboard, a blend of charming colonial towns, bustling cities, and
+                            picturesque coastlines awaits. The Great Smoky Mountains provide a striking backdrop to the
+                            vibrant autumn hues for which this region is renowned.
+                        </p>
+                        <p>
+                            In Central America, tropical rainforests teem with biodiversity, ancient Mayan ruins narrate
+                            stories of times long past, and stunning beaches grace the shores of the Caribbean Sea and
+                            the Pacific Ocean.
+                        </p>
+                        <p>
+                            From the sun-drenched beaches of California and Florida to the vast plains of the Midwest,
+                            and the rich cultures of Mexico and Central America, North America's beauty mirrors the
+                            diversity of its terrain. Each region, possessing its own distinct charm and natural
+                            splendor, contributes to the extraordinary tapestry that defines North America. It is a
+                            continent that truly caters to a wide range of interests and preferences.
+                        </p>
+
+                        <div class="places-na">
+                            <div class="na-p">
+                                <p> Here are four stunning destinations in Europe that you'll definitely want to
+                                    explore.
+                                </p>
+                                <div class="places">
+
+                                    <div class="place">
+                                        <img src="images/gallery_images/banff.jpg"
+                                            alt="Canada">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Banff National Park, Canada</h1>
+                                                </legend>
+
+                                                <p>
+                                                    Banff National Park, situated in the Rocky Mountains of Alberta, is
+                                                    a repository of natural splendor. Established in 1885, it stands as
+                                                    Canada's oldest national park. Spanning an expansive area of 6,641
+                                                    square kilometers, the park showcases diverse landscapes, ranging
+                                                    from dense coniferous forests and alpine scenery to glaciers and ice
+                                                    fields.
+                                                </p>
+                                                <p>
+                                                    Within the park, notable natural wonders include Moraine Lake and
+                                                    the Valley of the Ten Peaks. The Icefields Parkway, stretching from
+                                                    Lake Louise to Jasper National Park in the north, presents
+                                                    awe-inspiring vistas of the mountainous terrain. The primary
+                                                    commercial hub in the park is the town of Banff, nestled in the Bow
+                                                    River valley.
+                                                </p>
+                                                <p>
+                                                    Evergreen trees, particularly lodgepole pine, Engelmann spruce, and
+                                                    subalpine fir, dominate the park's flora. In higher altitudes beyond
+                                                    the treeline, a profusion of colorful wildflowers adds to the
+                                                    scenery. The park also hosts a rich variety of fauna, such as
+                                                    grizzly bears, cougars, wolverines, elk, bighorn sheep, and moose.
+                                                </p>
+                                                <p>
+                                                    Banff National Park's beauty is further accentuated by its
+                                                    geological features. The mountains, formed from sedimentary rocks
+                                                    pushed east over newer rock strata between 80 and 55 million years
+                                                    ago, have been shaped over millions of years by glaciers. Presently,
+                                                    these glaciers, including the Columbia Icefield, the largest
+                                                    uninterrupted glacial mass in the Rockies, adorn the mountain
+                                                    slopes.
+                                                </p>
+                                                <p>
+                                                    Drawing millions of visitors annually, Banff National Park stands as
+                                                    one of Canada's most captivating holiday destinations. Whether
+                                                    exploring the extensive cave system, marveling at numerous lakes and
+                                                    waterfalls, or simply soaking in the awe-inspiring views of
+                                                    snow-covered peaks, Banff National Park offers an unforgettable
+                                                    encounter with nature's grandeur.
+                                                </p>
+                                            </fieldset>
+
+                                        </div>
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/northamerica.jpg"
+                                            alt="grand canyon">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Grand Canyon National Park, U.S.A.</h1>
+                                                </legend>
+                                                <p>
+                                                    The awe-inspiring Grand Canyon National Park, situated in
+                                                    northwestern Arizona, captivates visitors with its majestic beauty.
+                                                    The central focus of the park is the Grand Canyon, a breathtaking
+                                                    gorge carved by the Colorado River, often hailed as one of the
+                                                    Wonders of the World.
+                                                </p>
+                                                <p>
+
+                                                    Encompassing an extensive area in Coconino and Mohave counties, the
+                                                    park spans 1,217,262 acres. Providing unparalleled views of the
+                                                    canyon's remarkable shapes and hues, the greatest depths of the
+                                                    Grand Canyon plunge more than a mile below its rim. Stretching over
+                                                    275 miles in length, the canyon varies in width from approximately
+                                                    500 feet to an impressive 18 miles.
+                                                </p>
+                                                <p>
+                                                    The park offers a diverse range of activities, including rim-to-rim
+                                                    hiking, mule rides, and whitewater rafting. The Grand Canyon stands
+                                                    as a spectacular testament to erosion, offering visitors
+                                                    incomparable vistas from the rims.
+                                                </p>
+                                                <p>
+                                                    UNESCO designated the Grand Canyon as a World Heritage Site in 1979,
+                                                    and the park marked its centennial anniversary on February 26, 2019.
+                                                    With over 4.7 million recreational visitors in 2022, it stands among
+                                                    the most visited national parks in the United States.
+                                                </p>
+                                                <p>
+                                                    In the eloquent words of President Theodore Roosevelt, "The Grand
+                                                    Canyon fills me with awe. It is beyond comparison—beyond
+                                                    description; absolutely unparalleled throughout the wide world… Let
+                                                    this great wonder of nature remain as it now is. Do nothing to mar
+                                                    its grandeur, sublimity, and loveliness. You cannot improve on it.
+                                                    But you can keep it for your children, your children's children, and
+                                                    all who come after you, as the one great sight which every American
+                                                    should see."
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/yosemite.jpg"
+                                            alt="Yosemite">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Yosemite National Park, U.S.A.</h1>
+                                                </legend>
+                                                <p>
+                                                    Yosemite National Park, situated in California, USA, is an
+                                                    awe-inspiring expanse of natural wonders. Encompassing nearly 1,200
+                                                    square miles, the park is globally renowned for its breathtaking
+                                                    cliffs, waterfalls, clear streams, giant sequoia groves, lakes,
+                                                    mountains, meadows, glaciers, and diverse ecosystems.
+                                                </p>
+                                                <p>
+                                                    Within the park, visitors are captivated by the dramatic landscape
+                                                    featuring high cliffs and deep valleys. The towering waterfalls,
+                                                    including the iconic Yosemite Falls, gracefully cascade into the
+                                                    valleys, offering a mesmerizing spectacle. Ancient giant sequoias
+                                                    stand as silent witnesses to the passage of time, while the
+                                                    extensive wilderness area provides a sanctuary for a variety of
+                                                    wildlife, making it a paradise for nature enthusiasts.
+                                                </p>
+                                                <p>
+                                                    Yosemite Valley, one of the park's most celebrated features, is a
+                                                    U-shaped valley carved by glaciers. Framed by granite monoliths like
+                                                    El Capitan and Half Dome, the valley is a major attraction known for
+                                                    its natural beauty.
+                                                </p>
+                                                <p>
+                                                    Recognized as a UNESCO World Heritage Site, Yosemite National Park
+                                                    underscores its global significance and the imperative to safeguard
+                                                    its natural splendor for future generations. Despite the park's vast
+                                                    expanse, Yosemite Valley remains a focal point, offering one of the
+                                                    most picturesque settings within the park.
+                                                </p>
+                                                <p>
+                                                    In essence, the allure of Yosemite National Park extends beyond its
+                                                    physical features to the diverse experiences it provides. Whether
+                                                    it's traversing meadows, marveling at towering sequoias, witnessing
+                                                    a sunset over Half Dome, or simply enjoying the sounds of a
+                                                    waterfall, the park offers myriad opportunities for enjoyment and
+                                                    connection with nature.
+
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/tulum.webp"
+                                            alt="Tulum">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Tulum, Mexico</h1>
+                                                </legend>
+                                                <p>
+                                                    Tulum, situated on the eastern coast of the Yucatan peninsula in
+                                                    southern Mexico, is a locale of stunning beauty and historical
+                                                    significance.
+                                                </p>
+                                                <p>
+
+                                                    The town boasts the remnants of a pre-Columbian Mayan walled city,
+                                                    functioning as a significant port for Coba. These ruins are perched
+                                                    on cliffs 12 meters tall along the eastern coast of the Yucatan
+                                                    Peninsula, providing a breathtaking view of the Caribbean Sea. The
+                                                    city, one of the last constructed and inhabited by the Maya, reached
+                                                    its peak between the 13th and 15th centuries.
+                                                </p>
+                                                <p>
+                                                    Tulum is renowned for its picturesque beaches, dense jungle, and the
+                                                    LabnaHa Eco Park, where you can explore a subterranean river. The
+                                                    town offers a blend of authentic mezcalerias, laid-back beach
+                                                    shacks, and upscale dining spots.
+                                                </p>
+                                                <p>
+                                                    Beyond its natural beauty and culinary offerings, Tulum is a center
+                                                    for wellness, featuring numerous smoothie stands and yoga retreats.
+                                                    It is a place where history, nature, and culture converge to deliver
+                                                    a genuinely unique and unforgettable experience.
+                                                </p>
+                                                <p>
+                                                    Whether you're delving into the ancient ruins, unwinding on the
+                                                    beach, or immersing yourself in the local culture, Tulum is a
+                                                    destination that captivates every visitor.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="continent" id="africa">
+                <div class="about-continent">
+                    <div class="about-continent-fieldset">
+                        <div class="about-continent-legend">
+                            <div class="continent-header-af">
+                                <h1>AFRICA</h1>
+                            </div>
+                        </div>
+                        <div class="image-section">
+                            <div class="text-part">
+                                <p>
+                                    Africa, the world's second-largest and second-most populous continent, is renowned
+                                    for its extraordinary beauty and diversity. Encompassing approximately one-fifth of
+                                    Earth's land area and 6% of its total surface, it is home to a population of 1.4
+                                    billion people as of 2021, constituting about 18% of the global human population.
+                                </p>
+                                <p>
+                                    The continent comprises 54 fully recognized sovereign states, each boasting distinct
+                                    cultures, languages, and histories. Africa's landscapes showcase remarkable
+                                    diversity, ranging from the expansive Sahara Desert and fertile Serengeti plains to
+                                    the tropical rainforests of the Congo and the picturesque beaches of Seychelles.
+                                </p>
+                                <p>
+                                    Beyond its landscapes, Africa boasts abundant wildlife, including iconic species
+                                    such as lions, elephants, and rhinos. National parks and reserves like Kenya's
+                                    Maasai Mara and South Africa's Kruger National Park provide unparalleled
+                                    opportunities for wildlife viewing.
+                                </p>
+
+                            </div>
+                            <figure>
+                                <div class="cenimg">
+                                    <img src="images/gallery_images/africaingreen.png"
+                                        alt="africa">
+                                </div>
+                                <figcaption> Africa shown in green</figcaption>
+                            </figure>
+                        </div>
+                        <p>
+                            In addition to its natural wonders, Africa possesses a rich cultural heritage. From the
+                            ancient pyramids of Egypt and Ethiopia's rock-hewn churches to the lively markets of
+                            Marrakech and the vibrant city life of Lagos, the continent offers a plethora of captivating
+                            experiences.
+                        </p>
+                        <p>
+                            Africa's allure extends beyond its landscapes and wildlife to its people, characterized by
+                            resilience, creativity, and spirit. Despite challenges, Africa's recent economic expansion
+                            and its large, youthful population position it as a significant economic market on the
+                            global stage.
+                        </p>
+                        <p>
+                            Whether exploring ancient ruins, embarking on a safari, or immersing oneself in local
+                            cultures, Africa provides a wealth of experiences that enchant all who visit.
+                        </p>
+
+                        <div class="places-af">
+                            <div class="af-p">
+                                <p> Here are four stunning destinations in Africa that you'll definitely want to
+                                    explore.
+                                </p>
+                                <div class="places">
+
+                                    <div class="place" id="giza">
+                                        <img src="images/gallery_images/Kheops-Pyramid.jpg"
+                                            alt="pyramid">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Great Pyramid of Giza</h1>
+                                                </legend>
+
+                                                <p>
+                                                    The Pyramid of Khufu, also recognized as the Great Pyramid of Giza
+                                                    or the Pyramid of Cheops, stands as a remarkable feat of ancient
+                                                    architectural brilliance. Situated on the outskirts of Cairo, it is
+                                                    the largest and oldest among the trio of pyramids in Giza. This
+                                                    awe-inspiring structure served as the burial site for Pharaoh Khufu,
+                                                    a ruler of the Fourth Dynasty of the Old Kingdom.
+                                                </p>
+                                                <p>
+
+                                                    Constructed approximately in 2570 BC, spanning around 27 years, the
+                                                    Great Pyramid holds the distinction of being the oldest of the Seven
+                                                    Wonders of the Ancient World. It is the sole wonder that has endured
+                                                    the test of time, maintaining much of its original form. As the
+                                                    focal point of the Giza pyramid complex, it is an integral part of
+                                                    the UNESCO World Heritage Site known as "Memphis and its
+                                                    Necropolis."
+                                                </p>
+                                                <p>
+
+                                                    Originally towering at 146.6 meters (481 feet), the Great Pyramid
+                                                    held the title of the world's tallest human-made structure for over
+                                                    3,800 years. Over time, the smooth white limestone casing was
+                                                    largely removed, reducing the pyramid's height to its present
+                                                    measurement of 138.5 meters (454.4 ft), revealing the underlying
+                                                    core structure.
+                                                </p>
+                                                <p>
+                                                    The pyramid's base spans approximately 230.3 meters (755.6 ft)
+                                                    square, with a volume of roughly 2.6 million cubic meters (92
+                                                    million cubic feet), including an internal hillock. The construction
+                                                    involved quarrying an estimated 2.3 million large blocks, totaling a
+                                                    weight of 6 million tonnes.
+                                                </p>
+                                                <p>
+                                                    The magnificence of the Great Pyramid is not solely attributed to
+                                                    its imposing size but also to its intricate design and the precision
+                                                    of its construction. The majority of stones exhibit non-uniform
+                                                    sizes and shapes, roughly dressed and bound together by mortar.
+                                                    Local limestone from the Giza Plateau was primarily used, while
+                                                    additional blocks, including white limestone from Tura and granite
+                                                    from Aswan weighing up to 80 tonnes, were transported by boat on the
+                                                    Nile for specific structures like the "King's Chamber." Within the
+                                                    Great Pyramid, there are three known chambers.
+                                                </p>
+                                                <p>
+                                                    The Great Pyramid of Giza stands as a testament to the ancient
+                                                    Egyptians' ingenuity and architectural mastery, continually
+                                                    enchanting and inspiring observers with its enduring beauty and
+                                                    enduring mysteries.
+                                                </p>
+                                            </fieldset>
+
+                                        </div>
+                                    </div>
+                                    <div class="place" id="mulanje">
+                                        <img src="images/gallery_images/mulanji.jpg"
+                                            alt="mulanje">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Mount Mulanje, Malawi</h1>
+                                                </legend>
+                                                <p>
+                                                    Mount Mulanje, also recognized as the Mulanje Massif, stands as a
+                                                    magnificent inselberg in southern Malawi. It holds the distinction
+                                                    of being the highest point in Malawi, with Sapitwa Peak reaching an
+                                                    elevation of 3,002 meters. This geological marvel originated
+                                                    approximately 130 million years ago through the intrusion of magma
+                                                    into the Earth's crust.
+                                                </p>
+                                                <p>
+
+                                                    Emerging abruptly from the plains of Phalombe and the Mulanje
+                                                    district, the mountain is locally referred to as the 'island in the
+                                                    sky.' Its imposing presence creates a distinct climate, and it
+                                                    serves as a vital source of rainwater for the rivers in the region.
+                                                </p>
+                                                <p>
+                                                    The landscape of Mount Mulanje showcases a stunning blend of rolling
+                                                    grasslands, deep forested ravines, and over 20 individual peaks
+                                                    surpassing 2,500 meters. Among these peaks, the West Face of Chambe
+                                                    Peak stands out for hosting the longest rock climb in Africa.
+                                                </p>
+                                                <p>
+                                                    The mountain harbors a diverse range of vegetation, including the
+                                                    endangered native Mulanje cypress. The forested slopes not only
+                                                    support a significant timber industry but also form part of the
+                                                    protected Mulanje Mountain Forest Reserve, a haven for endemic
+                                                    species such as forest butterflies, birds, a dwarf chameleon,
+                                                    geckos, the squeaker frog, and a rare limbless burrowing skink.
+                                                </p>
+                                                <p>
+                                                    Beyond its natural wonders, Mount Mulanje serves as a focal point
+                                                    for outdoor activities, offering a network of paths and trails
+                                                    suitable for gentle walks, serious climbing, and everything in
+                                                    between. The strategically placed mountain huts, maintained by the
+                                                    Malawi Mountain Club and the Malawi Forestry Department, provide
+                                                    resting spots for hikers and climbers.
+                                                </p>
+                                                <p>
+                                                    In essence, the allure of Mount Mulanje extends beyond its
+                                                    impressive height and distinctive geological attributes to encompass
+                                                    its rich biodiversity and the diverse recreational opportunities it
+                                                    presents. Undoubtedly, it stands as a treasure of Malawi.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/victoriafalls.jpg"
+                                            alt="Victoria falls">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Victoria Falls, Zimbabwe/Zambia</h1>
+                                                </legend>
+                                                <p>
+                                                    Victoria Falls, situated on the border between Zimbabwe and Zambia,
+                                                    stands as one of the world's seven natural wonders and holds the
+                                                    designation
+                                                    of a world heritage site. Drawing hundreds of thousands of visitors
+                                                    annually, the falls extend across the Zambezi River at one of its
+                                                    broadest points. Stretching over 5,500 feet, it forms the largest
+                                                    single curtain of falling water globally, measuring 1708 meters in
+                                                    length. The water cascades up to 100 meters in certain areas,
+                                                    plunging into a deep and winding gorge filled with turbulent rapids
+                                                    and whirlpools.
+                                                </p>
+                                                <p>
+
+                                                    Upon entering through the national park's entrance gate, your
+                                                    journey begins by veering left along a network of cobbled paths.
+                                                    Progressing closer to the falls, the resonant sound of falling water
+                                                    vibrates through your body, and the canopy of trees, vines, and
+                                                    foliage thickens. Now immersed in the perpetual rainforest,
+                                                    experiencing rainfall every day of the year, the humid atmosphere
+                                                    intensifies, accompanied by the earthy scents of soil and
+                                                    vegetation. Tiny droplets of spray start to moisten your skin.
+                                                    Finally, the majestic sight unfolds—a thriving river cascading over
+                                                    a 1.7 km long, dark basalt rock ledge, constituting the world's
+                                                    largest curtain of falling water.
+                                                </p>
+                                                <p>
+                                                    Victoria Falls comprises five primary waterfalls: The Devils
+                                                    Cataract, the Main Falls, the Horseshoe Falls, the Rainbow Falls,
+                                                    and the Eastern Cataract. The Zimbabwean side offers 16 viewing
+                                                    points, while the Zambian side boasts an additional 13. The first
+                                                    glimpse of the falls occurs from viewpoint number 2, providing a
+                                                    splendid view along the length of the waterfall, framed by trees and
+                                                    foliage.
+                                                </p>
+                                                <p>
+                                                    The Kololo tribe, residing in the vicinity, aptly described it as
+                                                    'Mosi-oa-Tunya'—'The Smoke that Thunders'—attributing to the immense
+                                                    spray and incredible noise generated by the rushing water. Victoria
+                                                    Falls has gained recognition as the greatest curtain of falling
+                                                    water globally when considering both its width and height.
+                                                    Undoubtedly, it is a captivating spectacle.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/avenueoftheboababs.webp"
+                                            alt="Madagascar">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Avenue of the Baobabs, Madagascar</h1>
+                                                </legend>
+                                                <p>
+                                                    The Avenue of the Baobabs, alternatively referred to as the Alley of
+                                                    the Baobabs, stands as a remarkable natural marvel situated in the
+                                                    Menabe region of western Madagascar. This distinct scenery showcases
+                                                    a prominent cluster of Grandidier's baobabs (Adansonia grandidieri)
+                                                    aligning an unpaved road connecting Morondava and Belon'i
+                                                    Tsiribihina.
+                                                </p>
+                                                <p>
+                                                    This avenue encompasses 20-25 Adansonia grandidieri baobabs along a
+                                                    260-meter stretch of the road. Indigenous to Madagascar, these trees
+                                                    attain a height of approximately 30 meters. Locally known as renala
+                                                    or reniala (derived from Malagasy reny ala, meaning "mother of the
+                                                    forest"), these baobabs boast an age of up to 2,800 years, serving
+                                                    as a legacy from the once-thriving tropical forests of Madagascar.
+                                                </p>
+                                                <p>
+                                                    The spectacle of the Avenue of the Baobabs is awe-inspiring,
+                                                    particularly during sunset when the silhouettes of these ancient
+                                                    trees starkly contrast the vibrant hues of the sky. Originally,
+                                                    these trees did not stand alone in the arid landscape; they were
+                                                    part of dense forests. However, as the population of the country
+                                                    increased, the forests gave way to agriculture, leaving only the
+                                                    baobab trees.
+                                                </p>
+                                                <p>
+                                                    Approximately 7 kilometers to the northwest lie the Baobab Amoureux,
+                                                    two notable Adansonia za trees—another indigenous baobab
+                                                    species—that have intertwined over the years. According to legend,
+                                                    these two baobabs grew together, symbolizing an impossible love
+                                                    story between a young man and woman from the nearby village.
+                                                </p>
+                                                <p>
+                                                    Despite its status as a popular tourist attraction, the area lacks a
+                                                    visitor center or gate fees, providing minimal income to local
+                                                    residents from tourism. Nevertheless, it has become a focal point
+                                                    for local conservation initiatives, receiving temporary protected
+                                                    status in July 2007 from the Ministry of Environment, Water, and
+                                                    Forestry—a significant step toward designating it as Madagascar's
+                                                    inaugural natural monument.
+                                                </p>
+                                                <p>
+                                                    The Avenue of the Baobabs transcends mere scenic beauty; it serves
+                                                    as a testament to the tenacity of nature and the imperative of
+                                                    conservation. It is a place where one can genuinely marvel at the
+                                                    grandeur and beauty of the natural world.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="continent" id="australia">
+                <div class="about-continent">
+                    <div class="about-continent-fieldset">
+                        <div class="about-continent-legend">
+                            <div class="continent-header-au">
+                                <h1>AUSTRALIA</h1>
+                            </div>
+                        </div>
+                        <div class="image-section">
+                            <div class="text-part">
+                                <p>
+                                    The landmass of Australia, also referred to in technical terms as Sahul,
+                                    Australia-New Guinea, Australinea, or Meganesia, stands out as a distinctive and
+                                    picturesque region. Situated in the Southern and Eastern hemispheres, it is the
+                                    smallest among the seven traditional continents.
+                                </p>
+                                <p>
+                                    Encompassing mainland Australia, Tasmania, the island of New Guinea (Papua New
+                                    Guinea and Western New Guinea), the Aru Islands, the Ashmore and Cartier Islands,
+                                    most of the Coral Sea Islands, and other nearby islands, the continent exhibits
+                                    diverse geography, culture, and history
+                                </p>
+                                <p>
+                                    Australia presents a tapestry of contrasts, ranging from arid deserts in the center
+                                    to lush tropical rainforests in the north-east, and mountain ranges in the
+                                    south-east. The landscape variety and climate differences make it an ideal haven for
+                                    nature enthusiasts
+                                </p>
+
+                            </div>
+                            <figure>
+                                <div class="cenimg">
+                                    <img src="images/gallery_images/australia.png"
+                                        alt="australia">
+                                </div>
+                                <figcaption> Australia shown in green</figcaption>
+                            </figure>
+                        </div>
+                        <p>
+                            The allure of Australia extends beyond its picturesque landscapes to its abundant
+                            biodiversity. As a megadiverse country, it hosts a plethora of unique flora and fauna,
+                            including numerous endemic species found nowhere else in the world.
+                        </p>
+                        <p>
+                            Africa's allure extends beyond its landscapes and wildlife to its people, characterized by
+                            resilience, creativity, and spirit. Despite challenges, Africa's recent economic expansion
+                            and its large, youthful population position it as a significant economic market on the
+                            global stage.
+                        </p>
+                        <p>
+                            The cities of Australia, including Sydney, Melbourne, Brisbane, Perth, and Adelaide, exude
+                            vibrancy and cosmopolitan charm, boasting modern architecture, cultural festivals, and
+                            top-notch dining. In contrast, rural areas provide a glimpse into traditional lifestyles and
+                            ancient cultures.
+                        </p>
+                        <p>
+                            Australia serves as a testament to the planet's beauty and diversity, with its unique
+                            landscapes, rich biodiversity, and lively cities making it an exceptionally special place.
+                        </p>
+
+                        <div class="places-af">
+                            <div class="af-p">
+                                <p> Here are four stunning destinations in Australia that you'll definitely want to
+                                    explore.
+                                </p>
+                                <div class="places">
+
+                                    <div class="place">
+                                        <img src="images/gallery_images/greatbarrierreef.jpg"
+                                            alt="Great_Barrier_Reef">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Great Barrier Reef, Australia</h1>
+                                                </legend>
+                                                <p>
+                                                    Situated off the northeastern coast of Australia, the Great Barrier
+                                                    Reef stands as a marvel of nature, showcasing the beauty and
+                                                    diversity of our planet. As the world's largest coral reef system,
+                                                    it comprises thousands of individual reefs and islands, spanning
+                                                    over 2,300 kilometers across an area of approximately 344,400 square
+                                                    kilometers.
+                                                </p>
+                                                <p>
+                                                    This expansive underwater ecosystem hosts an incredible array of
+                                                    life, serving as a breeding ground for migratory humpback whales
+                                                    from the Antarctic and providing a habitat for endangered species
+                                                    such as the Dugong (Sea Cow) and the large Green Sea Turtle. With
+                                                    over 9,000 known species, including 400 types of coral, 1,500
+                                                    species of fish, and 4,000 types of mollusk, the reef is a thriving
+                                                    hub of biodiversity.
+                                                </p>
+                                                <p>
+                                                    The allure of the Great Barrier Reef extends beyond its sheer size
+                                                    and rich variety of life. The vibrant hues of the coral and the
+                                                    diverse species of fish contribute to a captivating kaleidoscope of
+                                                    colors. Notably, this natural wonder is visible even from outer
+                                                    space, representing the largest single structure created by living
+                                                    organisms on Earth.
+                                                </p>
+                                                <p>
+                                                    Beyond its aesthetic appeal, the Great Barrier Reef plays a vital
+                                                    role in maintaining our planet's health and biodiversity. It holds
+                                                    cultural and spiritual significance for local communities and draws
+                                                    in over 1.6 million visitors annually. Despite its undeniable
+                                                    importance, the reef faces significant threats from climate change,
+                                                    pollution, and various human activities.
+                                                </p>
+                                                <p>
+                                                    In response to its ecological importance, UNESCO designated the
+                                                    Great Barrier Reef as a World Heritage Site in 1981, acknowledging
+                                                    it as one of the natural wonders of the world. Efforts are underway
+                                                    to safeguard and conserve this unique and invaluable ecosystem for
+                                                    future generations.
+                                                </p>
+                                            </fieldset>
+
+                                        </div>
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/sydneyoperahouse.jpg"
+                                            alt="Sydney_Opera_House">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Sydney Opera House, Australia</h1>
+                                                </legend>
+                                                <p>
+                                                    The Sydney Opera House, situated on Port Jackson (Sydney Harbour) in
+                                                    New South Wales, Australia, stands as a marvel of contemporary
+                                                    architecture. Its roof structure, composed of a distinctive series
+                                                    of gleaming white sail-shaped shells, renders it one of the world's
+                                                    most photographed buildings.
+                                                </p>
+                                                <p>
+
+                                                    Designed by Danish architect Jørn Utzon and completed by an
+                                                    Australian architectural team led by Peter Hall, this iconic
+                                                    building was formally inaugurated by Queen Elizabeth II on October
+                                                    20, 1973. Widely acknowledged as one of the globe's most renowned
+                                                    and unique structures, it is considered a masterpiece of
+                                                    20th-century architecture.
+                                                </p>
+                                                <p>
+                                                    The allure of the Sydney Opera House lies not solely in its
+                                                    groundbreaking design but also in its breathtaking setting on the
+                                                    foreshore of Sydney Harbour. Providing stunning views of the water
+                                                    and city skyline, it occupies Bennelong Point, nestled between
+                                                    Sydney Cove and Farm Cove. Positioned adjacent to the Sydney central
+                                                    business district and the Royal Botanic Gardens, and in proximity to
+                                                    the Sydney Harbour Bridge, the Opera House and its surroundings
+                                                    create a captivating ensemble.
+                                                </p>
+                                                <p>
+                                                    Functioning as a multi-venue performing arts center, the Opera House
+                                                    hosts more than 2000 performances annually. Beyond being an
+                                                    architectural wonder, it serves as a vibrant cultural hub, uniting
+                                                    artists and audiences from across the globe.
+                                                </p>
+                                                <p>
+                                                    In essence, the Sydney Opera House symbolizes both architectural
+                                                    innovation and cultural abundance. Its sail-like structures reaching
+                                                    skyward, the radiant white exterior reflecting the sun's rays, and
+                                                    its location on the lively Sydney Harbour collectively contribute to
+                                                    its enchanting beauty.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/uluru.webp"
+                                            alt="Ulura">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>Ulura, Australia</h1>
+                                                </legend>
+                                                <p>
+                                                    Uluru, alternatively recognized as Ayers Rock, stands as a
+                                                    captivating natural wonder situated in the heart of Australia. This
+                                                    immense sandstone monolith rises to a height of 348 meters (1,142
+                                                    feet), with the majority of its mass concealed beneath the ground.
+                                                    Extending an impressive 9.4 km in width, Uluru is estimated to be
+                                                    approximately 600 million years old.
+                                                </p>
+                                                <p>
+
+                                                    The rock is celebrated for its distinctive ability to undergo color
+                                                    transformations throughout the day and across the seasons, notably
+                                                    emitting a radiant red glow at dawn and sunset. This captivating
+                                                    occurrence is attributed to the presence of iron oxide in the
+                                                    sandstone. The reddish tint of the rock set against the backdrop of
+                                                    the clear blue sky forms a striking contrast that leaves onlookers
+                                                    in sheer admiration.
+                                                </p>
+                                                <p>
+                                                    The vicinity surrounding Uluru is replete with springs, waterholes,
+                                                    rock caves, and ancient paintings, contributing to its allure. A
+                                                    sacred site for the Pitjantjatjara, the Aboriginal people of the
+                                                    area, known as the Aṉangu, Uluru's cultural significance and natural
+                                                    beauty have merited its designation as a UNESCO World Heritage Site.
+                                                </p>
+                                                <p>
+                                                    Uluru transcends being merely a rock; it represents a living
+                                                    cultural landscape deemed sacred by the Yankunytjatjara and
+                                                    Pitjantjatjara people. The rock formations, ancient carvings, and
+                                                    surrounding flora and fauna are imbued with their spiritual lore.
+                                                </p>
+                                                <p>
+                                                    In close proximity to Uluru lies Kata Tjuta, also recognized as
+                                                    Mount Olga or the Olgas, another awe-inspiring rock formation.
+                                                    Specially designated viewing areas have been established to offer
+                                                    optimal perspectives of both Uluru and Kata Tjuta at dawn and dusk.
+                                                </p>
+                                                <p>
+                                                    The grandeur of Uluru and its profound cultural significance
+                                                    position it as one of Australia's most iconic natural landmarks and
+                                                    a sought-after destination for tourists. Its timeless beauty
+                                                    continues to enchant the hearts of visitors, leaving an enduring
+                                                    impression that lingers for a lifetime.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+                                    <div class="place">
+                                        <img src="images/gallery_images/12-Apostles.jpg"
+                                            alt=" The_Twelve_Apostles_">
+                                        <div class="place-description">
+                                            <fieldset>
+                                                <legend>
+                                                    <h1>The Twelve Apostles, Australia</h1>
+                                                </legend>
+                                                <p>
+                                                    The Twelve Apostles stand as a stunning natural marvel situated
+                                                    along the coastline of Port Campbell National Park, adjacent to the
+                                                    Great Ocean Road in Victoria, Australia. These formations consist of
+                                                    limestone stacks meticulously sculpted by the relentless erosion of
+                                                    the Southern Ocean over millions of years.
+                                                </p>
+                                                <p>
+
+                                                    The splendor of the Twelve Apostles is a truly captivating
+                                                    spectacle. Emerging abruptly from the tumultuous Southern Ocean,
+                                                    these grand limestone stacks serve as the focal point of the Great
+                                                    Ocean Road. Their most enchanting display unfolds at sunset, when
+                                                    the yellow rock transforms into a palette of red, orange, and
+                                                    various hues in between. The breathtaking scene of waves crashing
+                                                    against these renowned sea stacks attracts visitors from across the
+                                                    globe.
+                                                </p>
+                                                <p>
+                                                    Presently, there are eight stacks visible from the Twelve Apostles'
+                                                    vantage point. Each stack stands as a testament to the formidable
+                                                    forces of nature, reaching heights of up to 50 meters. Contrary to
+                                                    their name, the panoramic view from the promontory by the Twelve
+                                                    Apostles has never featured twelve stacks. Despite this, the name
+                                                    "Twelve Apostles" was officially adopted, even though the site has
+                                                    only ever hosted nine stacks.
+                                                </p>
+                                                <p>
+                                                    The Twelve Apostles occupy the traditional lands of the Eastern Maar
+                                                    peoples. In March 2023, the Federal Court of Australia rendered a
+                                                    verdict recognizing the Eastern Maar people as the rightful
+                                                    traditional owners of the land encompassing the Twelve Apostles.
+                                                </p>
+                                                <p>
+                                                    Beyond being a visual delight, this area holds immense cultural
+                                                    significance. It serves as a poignant reminder of the rich history
+                                                    and heritage of the land and its inhabitants. Whether you're an
+                                                    admirer of nature, a history enthusiast, or simply seeking a serene
+                                                    retreat, the Twelve Apostles in Australia is a destination bound to
+                                                    leave you awestruck.
+                                                </p>
+                                            </fieldset>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="btp" style="background-color: black;">
+        <abbr title="Back to top">
+            <a href="#top" class="totop">  &uarr;  </a>
+        </abbr>
+    </div>
+
+    <footer>
+        <a href="https://www.niagaracollegetoronto.ca/" target="_blank" class="logo">
+            <h1><span class="around">Drumil Fellipe Sugam - &#916; <i>Continent</i>Trek</span> 2023 - Niagara College
+                Toronto</h1>
+        </a>
+    </footer>
+
+    <script src="js/galleryscript.js"></script>
+</body>
+
+</html>
